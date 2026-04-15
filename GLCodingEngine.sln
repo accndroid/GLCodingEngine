@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{A1B2C3D4-DDDD-EEEE-FFFF-111122223333}"
+	ProjectSection(SolutionItems) = preProject
+		SQL\GL_Schema_And_SeedData.sql = SQL\GL_Schema_And_SeedData.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLCodingDemo", "GLCodingDemo.csproj", "{BDCAFC9E-6E93-D7FD-B560-B2E7E9F76C11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDCAFC9E-6E93-D7FD-B560-B2E7E9F76C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCAFC9E-6E93-D7FD-B560-B2E7E9F76C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCAFC9E-6E93-D7FD-B560-B2E7E9F76C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCAFC9E-6E93-D7FD-B560-B2E7E9F76C11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C09F0B4-8443-4E0A-BA96-D25F849660E4}
+	EndGlobalSection
+EndGlobal
