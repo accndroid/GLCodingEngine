@@ -33,7 +33,7 @@ public sealed class AIGLCodingAgent
     private readonly HttpClient _httpClient;
     // For the demo, hardcode your API key or load it from config. 
     // Example uses Groq's fast Llama3 API, but adapt to Gemini/Ollama as needed.
-    private readonly string _apiKey = "";
+    private readonly string _apiKey = Constants.GROQ_API_KEY ?? string.Empty;
     private readonly string _endpoint = "https://api.groq.com/openai/v1/chat/completions";
 
     public AIGLCodingAgent(HttpClient httpClient)

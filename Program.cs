@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 //          Validation (pass + fail), Audit Trail
 // ════════════════════════════════════════════════════════════════
 
-const string CONN = "";
+string CONN = Constants.CONN_STR ?? string.Empty;
 var services = new ServiceCollection();
 services.AddLogging(b => b.AddConsole().SetMinimumLevel(LogLevel.Warning));
 services.AddGLCodingEngine(CONN);
